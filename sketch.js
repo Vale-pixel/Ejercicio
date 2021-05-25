@@ -1,3 +1,6 @@
+let circulo = new Calida (100,100,255,0,0);
+let cuadrado = new Calidad1_5(100,200,0,255,0);
+
 function setup() {
   createCanvas(400, 400);
 }
@@ -14,6 +17,10 @@ function draw() {
   textSize(12);
   text("holi",50,50);
 
-  
+  circulo.mostrar();
+  cuadrado.mostrar();
+
+
+
 
 }
